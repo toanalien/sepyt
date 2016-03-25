@@ -8,3 +8,9 @@ Source code: [https://gitlab.com/toanalien/new-to-django](https://gitlab.com/toa
 $ source env/bin/activate
 $ cd NewToDjango/ && python manage.py runserver
 ```
+
+- Admin panel [http://localhost:8000/admin/login](http://localhost:8000/admin/login)
+```text
+username: toanalien
+password: zaq@1234
+```
