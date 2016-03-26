@@ -1,0 +1,39 @@
+* {
+    font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: #F5F5F5;
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+li a {
+    color: #333;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+#vote {
+    margin-top: 10px;
+    float: right;
+    font-size: 20px;
+    background-color: rgb(72, 150, 21);
+    background: linear-gradient(#84C63C, #489615) repeat scroll 0% 0% #489615;
+    border-radius: 6px;
+    color: #fff;
+
+}
+
+.main {
+    width: 400px;
+    margin: 0 auto;
+}
