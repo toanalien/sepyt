@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^polls/', include('polls.urls')), # use include() function to include polls urls config
+    url(r'^$', 'home.views.index'),
 ]
