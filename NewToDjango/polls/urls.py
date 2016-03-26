@@ -3,5 +3,5 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'), # render view.index for root path
+    url(r'^$', views.index, name='index'), # /polls/
 ]
